@@ -1,0 +1,20 @@
+Sep 18 09:01:12 Deepak sshd[1001]: Accepted password for deepakpatil from 192.168.1.50 port 51000 ssh2
+Sep 18 09:02:45 Deepak sshd[1002]: Failed password for invalid user admin from 203.0.113.55 port 51501 ssh2
+Sep 18 09:02:47 Deepak sshd[1003]: Failed password for invalid user admin from 203.0.113.55 port 51502 ssh2
+Sep 18 09:02:49 Deepak sshd[1004]: Failed password for invalid user root from 203.0.113.55 port 51503 ssh2
+Sep 18 09:02:51 Deepak sshd[1005]: Failed password for invalid user root from 203.0.113.55 port 51504 ssh2
+Sep 18 09:02:53 Deepak sshd[1006]: Failed password for invalid user test from 203.0.113.55 port 51505 ssh2
+Sep 18 09:02:55 Deepak sshd[1007]: Failed password for invalid user test from 203.0.113.55 port 51506 ssh2
+Sep 18 09:02:57 Deepak sshd[1008]: Failed password for invalid user oracle from 203.0.113.55 port 51507 ssh2
+Sep 18 09:02:59 Deepak sshd[1009]: Failed password for invalid user oracle from 203.0.113.55 port 51508 ssh2
+Sep 18 09:03:01 Deepak sshd[1010]: Failed password for invalid user postgres from 203.0.113.55 port 51509 ssh2
+Sep 18 09:03:03 Deepak sshd[1011]: Failed password for invalid user postgres from 203.0.113.55 port 51510 ssh2
+Sep 18 09:03:05 Deepak sshd[1012]: Accepted password for root from 203.0.113.55 port 51511 ssh2
+Sep 18 09:15:20 Deepak sshd[1013]: Accepted password for deepakpatil from 192.168.1.50 port 51600 ssh2
+Sep 18 09:20:11 Deepak sshd[1014]: Failed password for invalid user admin from 198.51.100.23 port 52000 ssh2
+Sep 18 09:20:14 Deepak sshd[1015]: Failed password for invalid user admin from 198.51.100.23 port 52001 ssh2
+Sep 18 09:45:33 Deepak sudo: deepakpatil : TTY=pts/0 ; PWD=/home/deepakpatil ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 18 10:01:05 Deepak sshd[1016]: Accepted password for deepakpatil from 192.168.1.50 port 51700 ssh2
+Sep 18 11:00:01 Deepak sshd[2001]: Failed password for invalid user backup from 45.33.22.11 port 60001 ssh2
+Sep 18 11:00:03 Deepak sshd[2002]: Failed password for invalid user backup from 45.33.22.11 port 60002 ssh2
+Sep 18 11:00:05 Deepak sshd[2003]: Failed password for invalid user backup from 45.33.22.11 port 60003 ssh2
