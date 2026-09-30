@@ -1,0 +1,2 @@
+c02e090f790bdfedc1d12f82968fe14d07e8a0c0bbc593f2a58081b3b5e46584  /home/deepakpatil/cyber-bootcamp/watched_files/admins.txt
+339b014d21342d13ec4a80d72924b62116a6644dce50c789abbe1c1f0d3e5049  /home/deepakpatil/cyber-bootcamp/watched_files/config.txt
