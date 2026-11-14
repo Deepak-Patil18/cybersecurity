@@ -1,0 +1,13 @@
+Oct 19 08:55:10 proxy 10.0.2.20 GET https://news.example/ 200 18230
+Oct 19 09:02:41 proxy 10.0.2.20 GET https://mail.company.example/inbox 200 9120
+Oct 19 09:10:02 proxy 10.0.2.31 GET https://secure-invoice-review.example/login/verify.php?id=8842 200 4410
+Oct 19 09:11:20 proxy 10.0.2.31 GET http://files-update-center.example/payload.bin 200 351000
+Oct 19 09:12:05 proxy 10.0.2.31 CONNECT 198.51.100.77:443 200 512
+Oct 19 09:13:05 proxy 10.0.2.31 CONNECT 198.51.100.77:443 200 512
+Oct 19 09:14:05 proxy 10.0.2.31 CONNECT 198.51.100.77:443 200 512
+Oct 19 09:15:05 proxy 10.0.2.31 CONNECT 198.51.100.77:443 200 512
+Oct 19 09:16:05 proxy 10.0.2.31 CONNECT 198.51.100.77:443 200 512
+Oct 19 09:17:05 proxy 10.0.2.31 CONNECT 198.51.100.77:443 200 512
+Oct 19 09:18:40 proxy 10.0.2.20 GET https://news.example/sports 200 22010
+Oct 19 09:30:44 proxy 10.0.2.31 POST http://198.51.100.77/upload 200 48213000
+Oct 19 09:41:12 proxy 10.0.2.20 GET https://mail.company.example/inbox 200 9333
