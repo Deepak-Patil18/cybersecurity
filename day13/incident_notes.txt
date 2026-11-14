@@ -1,0 +1,8 @@
+Ticket 1051 - Suspected phishing, reported by priya.sharma@company.example
+Sender: billing@secure-invoice-review[.]example (reply-to: support@secure-invoice-review[.]example)
+Link in email: hxxps://secure-invoice-review[.]example/login/verify.php?id=8842
+Attachment: Invoice_Q3.xlsm  sha256: d16c047a1f5e1c0084aef3782f73c5ecfe370e4a5f883654582857295ab20d39
+Attachment md5: c841453bf27f51b8f164fb641e12afbb
+Proxy logs: workstation WS-014 (10.0.2.31) connected to 198.51.100.77 on port 443 at 09:12, then every 60 seconds.
+The same workstation also contacted 203.0.113.45 (see Alert 1042).
+Second-stage download: hxxp://files-update-center[.]example/payload.bin
