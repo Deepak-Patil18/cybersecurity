@@ -1,0 +1,8 @@
+10/14/2026-17:48:40.000000  [**] [1:1000003:1] LAB Connection to known C2 IP [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.2.31:52000 -> 198.51.100.77:443
+10/14/2026-17:46:50.000000  [**] [1:1000001:1] LAB Phishing domain lookup [**] [Classification: A Network Trojan was detected] [Priority: 1] {UDP} 10.0.2.31:50611 -> 10.0.2.1:53
+10/14/2026-17:55:05.000000  [**] [1:1000005:1] LAB Long DNS label possible tunneling [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.2.31:51647 -> 10.0.2.1:53
+10/14/2026-17:55:00.000000  [**] [1:1000005:1] LAB Long DNS label possible tunneling [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.2.31:55256 -> 10.0.2.1:53
+10/14/2026-17:47:58.260000  [**] [1:1000002:1] LAB payload.bin download [**] [Classification: A Network Trojan was detected] [Priority: 1] {TCP} 10.0.2.31:51002 -> 192.0.2.60:80
+10/14/2026-17:55:15.000000  [**] [1:1000005:1] LAB Long DNS label possible tunneling [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.2.31:44722 -> 10.0.2.1:53
+10/14/2026-17:55:10.000000  [**] [1:1000005:1] LAB Long DNS label possible tunneling [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 10.0.2.31:56891 -> 10.0.2.1:53
+10/14/2026-17:58:24.800000  [**] [1:1000004:1] LAB Possible SYN port scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 203.0.113.45:40024 -> 10.0.2.40:44
