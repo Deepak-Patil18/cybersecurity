@@ -1,0 +1,29 @@
+#!/bin/bash
+# Creates win_events.log: simulated Windows Security/System events (pipe-delimited)
+# Fields: 1 time | 2 EventID | 3 Account | 4 LogonType | 5 SourceIP | 6 Details
+cat > win_events.log << 'LOG'
+2026-10-20 02:10:01|4625|Administrator|3|203.0.113.45|Unknown user name or bad password
+2026-10-20 02:10:04|4625|Administrator|3|203.0.113.45|Unknown user name or bad password
+2026-10-20 02:10:07|4625|Administrator|3|203.0.113.45|Unknown user name or bad password
+2026-10-20 02:10:10|4625|Administrator|3|203.0.113.45|Unknown user name or bad password
+2026-10-20 02:10:13|4625|Administrator|3|203.0.113.45|Unknown user name or bad password
+2026-10-20 02:10:16|4625|admin|3|203.0.113.45|Unknown user name or bad password
+2026-10-20 02:10:19|4625|admin|3|203.0.113.45|Unknown user name or bad password
+2026-10-20 02:10:22|4625|admin|3|203.0.113.45|Unknown user name or bad password
+2026-10-20 02:10:25|4625|Administrator|3|203.0.113.45|Unknown user name or bad password
+2026-10-20 02:10:28|4625|Administrator|3|203.0.113.45|Unknown user name or bad password
+2026-10-20 02:10:31|4625|Administrator|3|203.0.113.45|Unknown user name or bad password
+2026-10-20 02:10:36|4624|Administrator|10|203.0.113.45|RemoteInteractive (RDP) logon succeeded
+2026-10-20 02:10:36|4672|Administrator|-|-|Special privileges assigned to new logon
+2026-10-20 02:12:08|4688|Administrator|-|-|New process: cmd.exe  CommandLine: whoami /all
+2026-10-20 02:12:40|4688|Administrator|-|-|New process: powershell.exe  CommandLine: powershell -nop -w hidden -enc JABjAD0A
+2026-10-20 02:14:15|4720|Administrator|-|-|User account created: svc_helpdesk
+2026-10-20 02:14:30|4732|Administrator|-|-|svc_helpdesk added to local group Administrators
+2026-10-20 02:16:02|7045|SYSTEM|-|-|Service installed: WinUpdateSvc  Path: C:\ProgramData\upd.exe
+2026-10-20 02:17:20|4698|Administrator|-|-|Scheduled task created: \Microsoft\UpdateCheck runs C:\ProgramData\upd.exe daily
+2026-10-20 02:25:50|1102|Administrator|-|-|The Security audit log was cleared
+2026-10-20 08:58:12|4624|jsmith|2|-|Interactive logon at console
+2026-10-20 09:30:44|4625|jsmith|3|10.0.0.15|Bad password (typo)
+2026-10-20 09:30:52|4624|jsmith|3|10.0.0.15|Network logon succeeded
+LOG
+echo "Created win_events.log"
