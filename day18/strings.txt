@@ -1,0 +1,21 @@
+This program cannot be run in DOS mode.
+http://files-update-center.example/payload.bin
+198.51.100.77
+powershell -nop -w hidden -enc
+Software\Microsoft\Windows\CurrentVersion\Run
+WinUpdateSvc
+C:\ProgramData\upd.exe
+cmd.exe /c whoami /all
+vssadmin delete shadows /all /quiet
+VirtualAlloc
+WriteProcessMemory
+CreateRemoteThread
+URLDownloadToFileA
+RegSetValueExA
+IsDebuggerPresent
+KERNEL32.dll
+WININET.dll
+ADVAPI32.dll
+gD?y~ Vo
+_{zZ5VW~
+Your files have been encrypted. Contact recovery@secure-invoice-review.example
