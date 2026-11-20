@@ -1,0 +1,31 @@
+Return-Path: <alice@company.example>
+From: "Alice Rao" <alice@company.example>
+To: priya.sharma@company.example
+Subject: Team meeting notes
+Date: Tue, 20 Oct 2026 09:10:00 +0000
+Message-ID: <c21@company.example>
+Authentication-Results: mx.company.example; spf=pass
+ smtp.mailfrom=company.example; dkim=pass header.d=company.example; dmarc=pass
+ header.from=company.example
+Received: from mail.company.example (mail.company.example [10.0.2.5]) by
+ mx.company.example with ESMTP; Tue, 20 Oct 2026 09:10:02 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0808724076970611972=="
+
+--===============0808724076970611972==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Notes from today's meeting are below.
+
+--===============0808724076970611972==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Notes from today's meeting are below. See <a href=3D"https://w=
+iki.company.example/notes">https://wiki.company.example/notes</a></p></body><=
+/html>
+
+--===============0808724076970611972==--

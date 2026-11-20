@@ -1,0 +1,48 @@
+Return-Path: <bounce@mailer-x9.example>
+From: "Accounts Payable" <billing@secure-invoice-review.example>
+Reply-To: payments@freemail-box.example
+To: priya.sharma@company.example
+Subject: URGENT: Invoice Q3 overdue - action required immediately
+Date: Tue, 20 Oct 2026 08:57:55 +0000
+Message-ID: <7f3a91@mailer-x9.example>
+Authentication-Results: mx.company.example; spf=fail
+ smtp.mailfrom=mailer-x9.example; dkim=none; dmarc=fail
+ header.from=secure-invoice-review.example
+Received: from mail-relay.mailer-x9.example (unknown [203.0.113.45]) by
+ mx.company.example with ESMTP; Tue, 20 Oct 2026 08:58:02 +0000
+Received: from [10.9.8.7] (localhost) by mail-relay.mailer-x9.example with
+ SMTP; Tue, 20 Oct 2026 08:57:55 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6955313315284247882=="
+
+--===============6955313315284247882==
+Content-Type: multipart/alternative;
+ boundary="===============8706396921159848285=="
+
+--===============8706396921159848285==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Your invoice is overdue. Open the link or the attachment immediately.
+
+--===============8706396921159848285==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Dear customer,</p><p>Your invoice Q3 is <b>overdue</b>. <a hre=
+f=3D"http://secure-invoice-review.example/login/verify.php?id=3D8842">https:/=
+/portal.company.example/invoice</a></p><p>See the attached file. Failure to a=
+ct today will suspend your account.</p></body></html>
+
+--===============8706396921159848285==--
+
+--===============6955313315284247882==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_Q3.pdf.exe"
+MIME-Version: 1.0
+
+TVotRkFLRS1TQU1QTEUtYm9vdGNhbXAtaGFybWxlc3M=
+
+--===============6955313315284247882==--
