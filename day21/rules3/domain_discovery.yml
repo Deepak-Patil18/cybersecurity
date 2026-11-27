@@ -1,0 +1,9 @@
+title: Domain group discovery
+id: p3-004
+tags: [attack.discovery, attack.t1069.002]
+detection:
+  selection:
+    EventID: 4688
+    CommandLine|contains: 'net group'
+  condition: selection
+level: medium

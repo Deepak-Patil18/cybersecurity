@@ -1,0 +1,8 @@
+title: Logon with explicit credentials to another server
+id: p3-002
+tags: [attack.lateral_movement, attack.t1021.002]
+detection:
+  selection:
+    EventID: 4648
+  condition: selection
+level: medium

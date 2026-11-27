@@ -1,0 +1,9 @@
+title: Scheduled task running from a user AppData folder
+id: p3-001
+tags: [attack.persistence, attack.t1053.005]
+detection:
+  selection:
+    EventID: 4698
+    TaskPath|contains: '\AppData\'
+  condition: selection
+level: high

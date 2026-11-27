@@ -1,0 +1,10 @@
+title: Screensaver executable launched from Outlook
+id: p3-005
+tags: [attack.execution, attack.t1204.002]
+detection:
+  selection:
+    EventID: 4688
+    CommandLine|endswith: '.scr'
+    ParentImage|contains: 'OUTLOOK'
+  condition: selection
+level: high

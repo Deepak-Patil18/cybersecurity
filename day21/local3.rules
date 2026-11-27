@@ -1,0 +1,4 @@
+alert dns $HOME_NET any -> any any (msg:"P3 Phishing domain lookup"; dns.query; content:"invoice-portal-update.example"; nocase; classtype:trojan-activity; sid:2000001; rev:1;)
+alert http $HOME_NET any -> any any (msg:"P3 upd.bin download"; flow:established,to_server; http.uri; content:"/upd.bin"; classtype:trojan-activity; sid:2000002; rev:1;)
+alert tcp $HOME_NET any -> 198.51.100.99 443 (msg:"P3 Beacon to known C2"; flags:S; threshold:type limit, track by_src, count 1, seconds 3600; classtype:trojan-activity; sid:2000003; rev:1;)
+alert http $HOME_NET any -> 198.51.100.99 any (msg:"P3 Data upload to C2"; flow:established,to_server; http.method; content:"POST"; http.uri; content:"/upload"; classtype:trojan-activity; sid:2000004; rev:1;)

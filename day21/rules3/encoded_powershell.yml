@@ -1,0 +1,11 @@
+title: Hidden or encoded PowerShell
+id: p3-006
+tags: [attack.execution, attack.t1059.001]
+detection:
+  selection:
+    EventID: 4688
+    CommandLine|contains:
+      - '-enc'
+      - '-w hidden'
+  condition: selection
+level: high

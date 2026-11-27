@@ -1,0 +1,11 @@
+title: Data staging with robocopy or 7-Zip
+id: p3-003
+tags: [attack.collection, attack.t1074.001, attack.t1560.001]
+detection:
+  selection:
+    EventID: 4688
+    CommandLine|contains:
+      - 'robocopy'
+      - '7z.exe a'
+  condition: selection
+level: high
