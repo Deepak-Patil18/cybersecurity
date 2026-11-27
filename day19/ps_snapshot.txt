@@ -1,0 +1,6 @@
+USER       PID %CPU %MEM COMMAND
+root         1  0.0  0.1 /sbin/init
+www-data   812  0.2  0.8 apache2 -k start
+mysql      901  0.4  4.1 /usr/sbin/mysqld
+root      2310 97.8  2.3 /tmp/.kworkerd --pool pool.minexmr-lab.example:4444
+alice     2231  0.0  0.1 -bash

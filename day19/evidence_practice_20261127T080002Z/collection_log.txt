@@ -1,0 +1,15 @@
+2026-11-27T08:00:02Z collection started by deepakpatil on Deepak
+2026-11-27T08:00:02Z collected 01_date: date -u
+2026-11-27T08:00:02Z collected 02_uptime: uptime
+2026-11-27T08:00:02Z collected 03_logged_in: who
+2026-11-27T08:00:02Z collected 04_processes: ps aux
+2026-11-27T08:00:02Z collected 05_network_connections: ss -tunap
+2026-11-27T08:00:02Z collected 06_listening_ports: ss -tulnp
+2026-11-27T08:00:02Z collected 07_ip_addresses: ip addr
+2026-11-27T08:00:02Z collected 08_arp_cache: ip neigh
+2026-11-27T08:00:02Z collected 09_routing: ip route
+2026-11-27T08:00:02Z collected 10_recent_logins: last -n 30
+2026-11-27T08:00:02Z collected 11_users: cat /etc/passwd
+2026-11-27T08:00:02Z collected 12_cron_root: crontab -l
+2026-11-27T08:00:02Z collected 13_tmp_listing: ls -la /tmp
+2026-11-27T08:00:02Z hashes written to SHA256SUMS.txt

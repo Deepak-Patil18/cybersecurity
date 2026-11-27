@@ -1,0 +1,26 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.4  0.1  21744 12148 ?        Ss   07:57   0:00 /sbin/init
+root           2  0.0  0.0   3120  1920 ?        Sl   07:57   0:00 /init
+root           6  0.0  0.0   3120  1792 ?        Sl   07:57   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          40  0.1  0.1  42260 15076 ?        S<s  07:57   0:00 /usr/lib/systemd/systemd-journald
+root          93  0.1  0.0  25152  6016 ?        Ss   07:57   0:00 /usr/lib/systemd/systemd-udevd
+systemd+     165  0.0  0.1  21344 12672 ?        Ss   07:57   0:00 /usr/lib/systemd/systemd-resolved
+systemd+     166  0.0  0.0  91036  7680 ?        Ssl  07:57   0:00 /usr/lib/systemd/systemd-timesyncd
+root         175  0.0  0.0   4240  2432 ?        Ss   07:57   0:00 /usr/sbin/cron -f -P
+message+     176  0.0  0.0   9656  4480 ?        Ss   07:57   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         189  0.0  0.1  17968  8192 ?        Ss   07:57   0:00 /usr/lib/systemd/systemd-logind
+root         192  0.0  0.1 1756628 12544 ?       Ssl  07:57   0:00 /usr/libexec/wsl-pro-service
+root         195  0.0  0.0   3164  1920 hvc0     Ss+  07:57   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+syslog       204  0.0  0.0 222516  5632 ?        Ssl  07:57   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         207  0.0  0.0   3120  1792 tty1     Ss+  07:57   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         219  0.1  0.2 107072 22272 ?        Ssl  07:57   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         246  1.6  1.1 1373892 93196 ?       Ssl  07:57   0:02 /usr/bin/suricata -D --af-packet -c /etc/suricata/suricata.yaml --pidfile /run/suricata.pid
+root         337  0.0  0.0   3124   896 ?        Ss   07:57   0:00 /init
+root         338  0.0  0.0   3140  1156 ?        S    07:57   0:00 /init
+deepakp+     339  0.0  0.0   6176  5304 pts/0    Ss   07:57   0:00 -bash
+root         340  0.0  0.0   6696  4480 pts/1    Ss   07:57   0:00 /bin/login -f
+deepakp+     386  0.0  0.1  20324 10880 ?        Ss   07:57   0:00 /usr/lib/systemd/systemd --user
+deepakp+     387  0.0  0.0  21172  3516 ?        S    07:57   0:00 (sd-pam)
+deepakp+     413  0.0  0.0   6180  4856 pts/1    S+   07:57   0:00 -bash
+deepakp+     553  0.0  0.0   4756  3328 pts/0    S+   08:00   0:00 /bin/bash ./triage_collect.sh practice
+deepakp+     565  0.0  0.0   8340  4224 pts/0    R+   08:00   0:00 ps aux

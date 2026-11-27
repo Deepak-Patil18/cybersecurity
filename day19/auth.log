@@ -1,0 +1,3 @@
+Oct 21 03:16:10 webserver sudo:    www-data : TTY=unknown ; PWD=/var/www/html/uploads ; USER=root ; COMMAND=/usr/bin/crontab -u root /tmp/c.txt
+Oct 21 03:17:02 webserver sshd[2201]: Accepted publickey for root from 203.0.113.45 port 52811 ssh2
+Oct 21 09:05:40 webserver sshd[2230]: Accepted password for alice from 10.0.2.20 port 40100 ssh2

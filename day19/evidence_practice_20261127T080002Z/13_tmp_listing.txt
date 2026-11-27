@@ -1,0 +1,10 @@
+total 32
+drwxrwxrwt  8 root        root        4096 Nov 27 08:00 .
+drwxr-xr-x 38 root        root        4096 Nov 27 07:57 ..
+drwxrwxrwx  2 root        root          60 Nov 27 07:57 .X11-unix
+-rw-rw-r--  1 deepakpatil deepakpatil  186 Nov 27 08:00 heartbeat.log
+drwx------  2 root        root        4096 Nov 27 07:57 snap-private-tmp
+drwx------  3 root        root        4096 Nov 27 07:57 systemd-private-55d675b673904a2b8ea1310496f304a7-systemd-logind.service-ZAVkXC
+drwx------  3 root        root        4096 Nov 27 07:57 systemd-private-55d675b673904a2b8ea1310496f304a7-systemd-resolved.service-RnRSoS
+drwx------  3 root        root        4096 Nov 27 07:57 systemd-private-55d675b673904a2b8ea1310496f304a7-systemd-timesyncd.service-iGxDWr
+drwx------  3 root        root        4096 Nov 27 07:57 systemd-private-55d675b673904a2b8ea1310496f304a7-wsl-pro.service-YUL3CA

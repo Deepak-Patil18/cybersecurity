@@ -1,0 +1,8 @@
+2026-10-21 03:14:02|2840|-rw-r--r--|www-data|/var/www/html/uploads/cmd.php
+2026-10-21 03:14:45|1904320|-rwxr-xr-x|www-data|/tmp/.kworkerd
+2026-10-21 03:16:10|63|-rw-------|root|/var/spool/cron/crontabs/root
+2026-10-21 03:16:55|563|-rw-------|root|/root/.ssh/authorized_keys
+2026-10-21 03:18:30|412|-rw-r--r--|root|/etc/ld.so.preload
+2026-10-21 03:20:00|2048|-rw-r--r--|root|/root/.bash_history
+2026-10-20 14:22:09|5120|-rw-r--r--|root|/var/www/html/index.php
+2026-10-12 10:01:44|1024|-rw-r--r--|root|/etc/hosts

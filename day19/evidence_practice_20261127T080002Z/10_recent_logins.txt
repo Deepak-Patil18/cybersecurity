@@ -1,0 +1,17 @@
+reboot   system boot  6.6.87.2-microso Fri Nov 27 07:57   still running
+reboot   system boot  6.6.87.2-microso Fri Nov 20 15:53 - 02:20  (10:27)
+reboot   system boot  6.6.87.2-microso Fri Nov 20 11:00 - 11:03  (00:02)
+reboot   system boot  6.6.87.2-microso Tue Nov  3 07:35 - 21:14 (16+13:38)
+reboot   system boot  6.6.87.2-microso Sun Nov  1 12:03 - 12:09  (00:05)
+reboot   system boot  6.6.87.2-microso Thu Oct 29 04:25 - 04:27  (00:02)
+reboot   system boot  6.6.87.2-microso Wed Oct  7 08:04 - 16:25  (08:20)
+reboot   system boot  6.6.87.2-microso Wed Oct  7 07:58 - 08:03  (00:05)
+reboot   system boot  6.6.87.2-microso Sun Oct  4 09:31 - 15:13  (05:42)
+reboot   system boot  6.6.87.2-microso Wed Sep 30 11:19 - 15:13 (4+03:54)
+reboot   system boot  6.6.87.2-microso Wed Sep 30 11:15 - 15:13 (4+03:58)
+reboot   system boot  6.6.87.2-microso Mon Sep 21 09:20 - 10:24 (2+01:04)
+reboot   system boot  6.6.87.2-microso Fri Sep 18 08:16 - 15:41 (1+07:25)
+reboot   system boot  6.6.87.2-microso Wed Mar  4 06:15 - 15:41 (199+09:26)
+reboot   system boot  6.6.87.2-microso Tue Mar  3 19:54 - 20:15  (00:20)
+
+wtmp begins Tue Mar  3 19:54:51 2026
