@@ -1,0 +1,11 @@
+title: Remote Desktop logon
+id: lab-006
+status: test
+tags: [attack.lateral_movement, attack.t1021.001]
+logsource: {product: windows, service: security}
+detection:
+  selection:
+    EventID: 4624
+    LogonType: 10
+  condition: selection
+level: medium

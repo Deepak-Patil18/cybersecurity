@@ -1,0 +1,11 @@
+title: Service installed from ProgramData
+id: lab-007
+status: test
+tags: [attack.persistence, attack.t1543.003]
+logsource: {product: windows, service: system}
+detection:
+  selection:
+    EventID: 7045
+    ServicePath|contains: '\ProgramData\'
+  condition: selection
+level: high

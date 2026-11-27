@@ -1,0 +1,11 @@
+title: User added to Administrators group
+id: lab-003
+status: test
+tags: [attack.persistence, attack.t1098]
+logsource: {product: windows, service: security}
+detection:
+  selection:
+    EventID: 4732
+    Group: Administrators
+  condition: selection
+level: critical

@@ -1,0 +1,13 @@
+title: whoami executed
+id: lab-005
+status: test
+tags: [attack.discovery, attack.t1033]
+logsource: {product: windows, category: process_creation}
+detection:
+  selection:
+    EventID: 4688
+    CommandLine|startswith: 'whoami'
+  filter:
+    Account: svc_inventory
+  condition: selection and not filter
+level: low

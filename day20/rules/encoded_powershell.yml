@@ -1,0 +1,14 @@
+title: Hidden or encoded PowerShell
+id: lab-002
+status: test
+description: PowerShell launched with encoded or hidden-window options
+tags: [attack.execution, attack.t1059.001]
+logsource: {product: windows, category: process_creation}
+detection:
+  selection:
+    EventID: 4688
+    CommandLine|contains:
+      - '-enc'
+      - '-w hidden'
+  condition: selection
+level: high

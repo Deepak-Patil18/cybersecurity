@@ -1,0 +1,22 @@
+{"time": "2026-10-20T01:30:00Z", "EventID": 4624, "Account": "jsmith", "Host": "WIN-SRV01", "LogonType": 2, "SourceIP": "-"}
+{"time": "2026-10-20T01:45:10Z", "EventID": 4688, "Account": "svc_inventory", "Host": "WIN-SRV01", "CommandLine": "whoami /all", "ParentImage": "C:\\Tools\\inventory.exe"}
+{"time": "2026-10-20T01:50:00Z", "EventID": 4625, "Account": "jsmith", "Host": "WIN-SRV01", "LogonType": 3, "SourceIP": "10.0.0.15"}
+{"time": "2026-10-20T02:10:01Z", "EventID": 4625, "Account": "Administrator", "Host": "WIN-SRV01", "LogonType": 3, "SourceIP": "203.0.113.45"}
+{"time": "2026-10-20T02:10:04Z", "EventID": 4625, "Account": "Administrator", "Host": "WIN-SRV01", "LogonType": 3, "SourceIP": "203.0.113.45"}
+{"time": "2026-10-20T02:10:07Z", "EventID": 4625, "Account": "Administrator", "Host": "WIN-SRV01", "LogonType": 3, "SourceIP": "203.0.113.45"}
+{"time": "2026-10-20T02:10:10Z", "EventID": 4625, "Account": "Administrator", "Host": "WIN-SRV01", "LogonType": 3, "SourceIP": "203.0.113.45"}
+{"time": "2026-10-20T02:10:13Z", "EventID": 4625, "Account": "Administrator", "Host": "WIN-SRV01", "LogonType": 3, "SourceIP": "203.0.113.45"}
+{"time": "2026-10-20T02:10:16Z", "EventID": 4625, "Account": "admin", "Host": "WIN-SRV01", "LogonType": 3, "SourceIP": "203.0.113.45"}
+{"time": "2026-10-20T02:10:19Z", "EventID": 4625, "Account": "admin", "Host": "WIN-SRV01", "LogonType": 3, "SourceIP": "203.0.113.45"}
+{"time": "2026-10-20T02:10:22Z", "EventID": 4625, "Account": "admin", "Host": "WIN-SRV01", "LogonType": 3, "SourceIP": "203.0.113.45"}
+{"time": "2026-10-20T02:10:25Z", "EventID": 4625, "Account": "Administrator", "Host": "WIN-SRV01", "LogonType": 3, "SourceIP": "203.0.113.45"}
+{"time": "2026-10-20T02:10:28Z", "EventID": 4625, "Account": "Administrator", "Host": "WIN-SRV01", "LogonType": 3, "SourceIP": "203.0.113.45"}
+{"time": "2026-10-20T02:10:31Z", "EventID": 4625, "Account": "Administrator", "Host": "WIN-SRV01", "LogonType": 3, "SourceIP": "203.0.113.45"}
+{"time": "2026-10-20T02:10:36Z", "EventID": 4624, "Account": "Administrator", "Host": "WIN-SRV01", "LogonType": 10, "SourceIP": "203.0.113.45"}
+{"time": "2026-10-20T02:12:08Z", "EventID": 4688, "Account": "Administrator", "Host": "WIN-SRV01", "CommandLine": "whoami /all", "ParentImage": "C:\\Windows\\System32\\cmd.exe"}
+{"time": "2026-10-20T02:12:40Z", "EventID": 4688, "Account": "Administrator", "Host": "WIN-SRV01", "CommandLine": "powershell -nop -w hidden -enc JABjAD0A", "ParentImage": "C:\\Windows\\System32\\cmd.exe"}
+{"time": "2026-10-20T02:14:15Z", "EventID": 4720, "Account": "Administrator", "Host": "WIN-SRV01", "TargetUser": "svc_helpdesk"}
+{"time": "2026-10-20T02:14:30Z", "EventID": 4732, "Account": "Administrator", "Host": "WIN-SRV01", "TargetUser": "svc_helpdesk", "Group": "Administrators"}
+{"time": "2026-10-20T02:16:02Z", "EventID": 7045, "Account": "SYSTEM", "Host": "WIN-SRV01", "ServiceName": "WinUpdateSvc", "ServicePath": "C:\\ProgramData\\upd.exe"}
+{"time": "2026-10-20T02:25:50Z", "EventID": 1102, "Account": "Administrator", "Host": "WIN-SRV01"}
+{"time": "2026-10-20T08:58:12Z", "EventID": 4624, "Account": "jsmith", "Host": "WIN-SRV01", "LogonType": 2, "SourceIP": "-"}
