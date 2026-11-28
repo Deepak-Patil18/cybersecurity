@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+"""Creates scan_results.csv: a fictional vulnerability-scan export for 10 findings."""
+rows = [
+ # host, ip, role, exposure, criticality(1-5), service, port, cve, cvss, kev, patch, finding
+ ("web-01","203.0.113.10","Public website","internet",4,"Apache Log4j",8080,"CVE-2021-44228",10.0,"Y","Y","Log4Shell remote code execution"),
+ ("vpn-01","203.0.113.11","VPN gateway","internet",5,"OpenSSL",443,"CVE-2014-0160",7.5,"Y","Y","Heartbleed memory disclosure"),
+ ("fs-01","10.0.2.50","File server (HR data)","internal",5,"SMBv1",445,"CVE-2017-0144",8.1,"Y","Y","EternalBlue SMBv1 remote code execution"),
+ ("dev-07","10.0.9.7","Developer test box","internal",1,"Apache Struts",8080,"CVE-2017-5638",9.8,"Y","Y","Struts remote code execution"),
+ ("rdp-02","10.0.2.60","Admin jump host","internal",4,"RDP",3389,"CVE-2019-0708",9.8,"Y","Y","BlueKeep RDP remote code execution"),
+ ("hr-app","10.0.2.70","HR web app","internal",4,"Custom app",8443,"CVE-2026-0001",6.1,"N","N","Reflected cross-site scripting (fictional ID)"),
+ ("print-03","10.0.3.30","Office printer","internal",1,"Embedded web UI",80,"CVE-2026-0002",5.3,"N","N","Information disclosure (fictional ID)"),
+ ("db-01","10.0.2.80","Customer database","internal",5,"PostgreSQL",5432,"CVE-2026-0003",7.2,"N","Y","Privilege escalation for authenticated users (fictional ID)"),
+ ("mail-01","203.0.113.12","Mail gateway","internet",5,"Exim",25,"CVE-2026-0004",9.0,"N","N","Remote code execution, no patch yet (fictional ID)"),
+ ("kiosk-04","10.0.4.40","Lobby kiosk","internal",2,"Windows 10",135,"CVE-2026-0005",3.7,"N","Y","Low-impact information leak (fictional ID)"),
+]
+with open("scan_results.csv", "w") as f:
+    f.write("host,ip,role,exposure,criticality,service,port,cve,cvss,kev,patch_available,finding\n")
+    for r in rows:
+        f.write(",".join(str(x) for x in r) + "\n")
+print(f"Created scan_results.csv with {len(rows)} findings")
